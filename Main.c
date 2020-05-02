@@ -3,7 +3,7 @@
 int main()
 {
 	int num, rem = 0, div = 0, total = 0;
-	printf("Bir sayi girin:");
+	printf("Enter a number:");
 	scanf_s(" %d", &num);
 	while (num > 0)
 	{
@@ -12,6 +12,6 @@ int main()
 		total = total * 10 + rem;
 		num = div;
 	}
-	printf("Sayinizin tersten yazimi: %d\n", total);
+	printf("Reversed version of your number: %d\n", total);
 
 }
